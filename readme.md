@@ -25,9 +25,9 @@ Stencil components are just Web Components, so they work in any major framework 
 ## Getting Started
 
 ```bash
-npm i stencil-forms
+npm i @engineerapart/stencil-forms
 or
-yarn add stencil-forms
+yarn add @engineerapart/stencil-forms
 ```
 
 and simply import somewhere near the init point of your app (such as the globals folder):
@@ -36,23 +36,7 @@ and simply import somewhere near the init point of your app (such as the globals
 import '@engineerapart/stencil-forms';
 ```
 
-To watch for file changes during develop, run:
-
-```bash
-npm run dev
-```
-
-To build the component for production, run:
-
-```bash
-npm run build
-```
-
-To run the unit tests for the components, run:
-
-```bash
-npm test
-```
-
-Need help? Check out our docs [here](https://stenciljs.com/docs/my-first-component).
+FYI to avoid confusion, this package is also published under:
+`stencil-form`
+`stencil-forms`
 

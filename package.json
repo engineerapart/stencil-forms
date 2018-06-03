@@ -1,6 +1,6 @@
 {
   "name": "@engineerapart/stencil-forms",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Forms Library for Stencil",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
@@ -15,7 +15,8 @@
     "serve": "stencil-dev-server",
     "start": "npm run dev",
     "test": "jest",
-    "test.watch": "jest --watch"
+    "test.watch": "jest --watch",
+    "deploy": "npm run build && npm publish --access public"
   },
   "dependencies": {},
   "devDependencies": {
@@ -23,7 +24,8 @@
     "@stencil/dev-server": "latest",
     "@stencil/utils": "latest",
     "@types/jest": "^23.0.0",
-    "jest": "^23.1.0"
+    "jest": "^23.1.0",
+    "semver": "^5.5.0"
   },
   "repository": {
     "type": "git",
