@@ -1,7 +1,7 @@
 {
-  "name": "my-component",
+  "name": "@engineerapart/stencil-forms",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "description": "Forms Library for Stencil",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
   "types": "dist/types/components.d.ts",
@@ -19,22 +19,22 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stencil/core": "^0.9.1",
+    "@stencil/core": "^0.9.7",
     "@stencil/dev-server": "latest",
     "@stencil/utils": "latest",
-    "@types/jest": "^21.1.1",
-    "jest": "^21.2.1"
+    "@types/jest": "^23.0.0",
+    "jest": "^23.1.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "git+https://github.com/EngineerApart/stencil-forms.git"
   },
   "author": "Ionic Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/stencil"
+    "url": "https://github.com/EngineerApart/stencil-forms"
   },
-  "homepage": "https://github.com/ionic-team/stencil",
+  "homepage": "https://github.com/EngineerApart/stencil-forms",
   "jest": {
     "transform": {
       "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"
